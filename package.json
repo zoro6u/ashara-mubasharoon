@@ -1,0 +1,33 @@
+{
+  "name": "ashara-mubasharoon",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Ten Companions Promised Paradise — an animated, bilingual (Arabic/English) tribute website.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "framer-motion": "^11.3.19",
+    "gsap": "^3.12.5",
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.0.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.5"
+  }
+}
